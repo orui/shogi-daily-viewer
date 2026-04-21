@@ -10,6 +10,17 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <div class="auth-screen" id="authScreen">
+    <form class="auth-card" id="authForm">
+      <div class="auth-eyebrow">Private Preview</div>
+      <h1>将棋 Daily Viewer</h1>
+      <p>閲覧用パスワードを入力してください。</p>
+      <input id="authPassword" type="password" autocomplete="current-password" placeholder="Password">
+      <button type="submit">入る</button>
+      <div class="auth-error" id="authError" role="alert"></div>
+    </form>
+  </div>
+
   <div class="page-shell">
     <main class="layout">
       <section class="panel stage-panel">

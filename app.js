@@ -13,8 +13,14 @@ import {
 } from "./shogi-core.js";
 
 const manifestUrl = "./data/manifest.json";
+const authStorageKey = "shogi-daily-viewer-authenticated";
+const authPasswordHash = "379fb1eb999bfb776c12bc25e7d4c248ab718490f43c760e51c641ab083b0779";
 
 const dom = {
+  authScreen: document.getElementById("authScreen"),
+  authForm: document.getElementById("authForm"),
+  authPassword: document.getElementById("authPassword"),
+  authError: document.getElementById("authError"),
   metaGrid: document.getElementById("metaGrid"),
   boardGrid: document.getElementById("boardGrid"),
   boardFilesTop: document.getElementById("boardFilesTop"),
@@ -95,6 +101,43 @@ function stopAutoplay() {
     state.autoplayTimer = null;
     dom.playBtn.textContent = "自動再生";
   }
+}
+
+async function sha256Hex(value) {
+  const data = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest("SHA-256", data);
+  return [...new Uint8Array(digest)]
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function unlockViewer() {
+  dom.authScreen.classList.add("hidden");
+  document.body.classList.add("viewer-unlocked");
+}
+
+async function requireAuth() {
+  if (localStorage.getItem(authStorageKey) === "yes") {
+    unlockViewer();
+    return;
+  }
+
+  dom.authPassword.focus();
+  await new Promise((resolve) => {
+    dom.authForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      dom.authError.textContent = "";
+      const inputHash = await sha256Hex(dom.authPassword.value);
+      if (inputHash !== authPasswordHash) {
+        dom.authError.textContent = "パスワードが違います。";
+        dom.authPassword.select();
+        return;
+      }
+      localStorage.setItem(authStorageKey, "yes");
+      unlockViewer();
+      resolve();
+    });
+  });
 }
 
 function ensureBoardSkeleton() {
@@ -328,6 +371,7 @@ function setupEvents() {
 }
 
 async function bootstrap() {
+  await requireAuth();
   ensureBoardSkeleton();
   setupEvents();
 

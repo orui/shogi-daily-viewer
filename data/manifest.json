@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T11:33:01.577Z",
+  "generated_at": "2026-04-21T22:50:25.585Z",
   "games": [
     {
       "id": "sample.txt",
@@ -414,6 +414,406 @@
       "source": "https://shogidb2.com/games/5596915f18e11fd87951ba55f1808648607d650380013064e46715",
       "category": "将棋DB2",
       "date": "2026/01/11 9:00:00"
+    },
+    {
+      "id": "shogidb2_8f98d1eec56324c187425b18",
+      "file": "shogidb2_8f98d1eec56324c187425b18.txt",
+      "title": "菅井竜也 王位 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/8f98d1eec56324c187425b180100081248028fed61f50fd300e37314",
+      "category": "将棋DB2",
+      "date": "2018/09/03 10:00:00"
+    },
+    {
+      "id": "shogidb2_7e04eccc23f0fa71a01ba56c",
+      "file": "shogidb2_7e04eccc23f0fa71a01ba56c.txt",
+      "title": "羽生善治 九段 vs 藤井　猛 九段",
+      "source": "https://shogidb2.com/games/7e04eccc23f0fa71a01ba56cbe6048432b40e211027cc3866978403602",
+      "category": "将棋DB2",
+      "date": "2019/09/03 19:00:00"
+    },
+    {
+      "id": "shogidb2_580fec30f2e2c5ac2e735bea",
+      "file": "shogidb2_580fec30f2e2c5ac2e735bea.txt",
+      "title": "藤井聡太 二冠 vs 羽生善治 九段",
+      "source": "https://shogidb2.com/games/580fec30f2e2c5ac2e735beac30ef04148418270fbf760000c4be30301",
+      "category": "将棋DB2",
+      "date": "2020/09/22 10:00:00"
+    },
+    {
+      "id": "shogidb2_71887176b1f902fa471f6a4b",
+      "file": "shogidb2_71887176b1f902fa471f6a4b.txt",
+      "title": "羽生善治 棋聖 vs 渡辺　明 竜王",
+      "source": "https://shogidb2.com/games/71887176b1f902fa471f6a4b4183c92744102409271bfe19a6c70b1c500a",
+      "category": "将棋DB2",
+      "date": "2017/10/20 9:00:00"
+    },
+    {
+      "id": "shogidb2_848111009fbcd44b31fa6bf1",
+      "file": "shogidb2_848111009fbcd44b31fa6bf1.txt",
+      "title": "豊島将之 八段 vs 羽生善治 龍王",
+      "source": "https://shogidb2.com/games/848111009fbcd44b31fa6bf1596082102412d6c9060cd3c38ae1244613",
+      "category": "将棋DB2",
+      "date": "2018/03/18 10:00:00"
+    },
+    {
+      "id": "shogidb2_26217fc0f80a0af022cad49a",
+      "file": "shogidb2_26217fc0f80a0af022cad49a.txt",
+      "title": "藤井聡太 七段 vs 渡辺　明 棋聖",
+      "source": "https://shogidb2.com/games/26217fc0f80a0af022cad49a54a699afc096150100bcc0f08b4a1a",
+      "category": "将棋DB2",
+      "date": "2020/07/09 9:00:00"
+    },
+    {
+      "id": "shogidb2_85a2f10fe6050078302fa555",
+      "file": "shogidb2_85a2f10fe6050078302fa555.txt",
+      "title": "藤井聡太 七段 vs 木村一基 王位",
+      "source": "https://shogidb2.com/games/85a2f10fe6050078302fa5558a97ad210479880936df1826c0222e55",
+      "category": "将棋DB2",
+      "date": "2020/07/01 9:00:00"
+    },
+    {
+      "id": "shogidb2_9f91119847b0d899eb812aa4",
+      "file": "shogidb2_9f91119847b0d899eb812aa4.txt",
+      "title": "藤井猛 vs 羽生善治",
+      "source": "https://shogidb2.com/games/9f91119847b0d899eb812aa4088f927c1109d81e7e008609be06489f0a",
+      "category": "将棋DB2",
+      "date": "2000/12/25 9:00:00"
+    },
+    {
+      "id": "shogidb2_9d053c66f308462fc5a857d1",
+      "file": "shogidb2_9d053c66f308462fc5a857d1.txt",
+      "title": "藤井　猛 九段 vs 永瀬拓矢 七段",
+      "source": "https://shogidb2.com/games/9d053c66f308462fc5a857d116df8f0020212124b079f00fdb341c4650",
+      "category": "将棋DB2",
+      "date": "2017/12/21 10:00:00"
+    },
+    {
+      "id": "shogidb2_9c88113b335eec2f655145f1",
+      "file": "shogidb2_9c88113b335eec2f655145f1.txt",
+      "title": "中田　功 七段 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/9c88113b335eec2f655145f13002a61212f2ef9e09e0c1b0f2b119067948",
+      "category": "将棋DB2",
+      "date": "2018/01/11 10:00:00"
+    },
+    {
+      "id": "shogidb2_830cec30f2b2e3b36d4b011f",
+      "file": "shogidb2_830cec30f2b2e3b36d4b011f.txt",
+      "title": "藤井聡太 五段 vs 古森悠太 四段",
+      "source": "https://shogidb2.com/games/830cec30f2b2e3b36d4b011f0afe1e4ce455640a1a8fc986016c860a1e08",
+      "category": "将棋DB2",
+      "date": "2018/02/14 10:00:00"
+    },
+    {
+      "id": "shogidb2_720a2fec2f005a7e81d28221",
+      "file": "shogidb2_720a2fec2f005a7e81d28221.txt",
+      "title": "羽生善治 vs 久保利明",
+      "source": "https://shogidb2.com/games/720a2fec2f005a7e81d282214032404222f89ac064f76d1a3e0a5502",
+      "category": "将棋DB2",
+      "date": "2010/03/16 9:00:00"
+    },
+    {
+      "id": "shogidb2_899571f6707d1af1a254ed14",
+      "file": "shogidb2_899571f6707d1af1a254ed14.txt",
+      "title": "藤井聡太 四段 vs 増田康宏 四段",
+      "source": "https://shogidb2.com/games/899571f6707d1af1a254ed146d77d8261401421282cdcf97e19f07d3107004",
+      "category": "将棋DB2",
+      "date": "2017/06/26 10:00:00"
+    },
+    {
+      "id": "shogidb2_a197117ecd23f842410b7dec",
+      "file": "shogidb2_a197117ecd23f842410b7dec.txt",
+      "title": "菅井竜也 七段 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/a197117ecd23f842410b7deca0f40380648a48c0db6318d8fc994ee22800",
+      "category": "将棋DB2",
+      "date": "2017/08/04 10:00:00"
+    },
+    {
+      "id": "shogidb2_8d10e8c6085e1b94b90a5355",
+      "file": "shogidb2_8d10e8c6085e1b94b90a5355.txt",
+      "title": "菅井竜也 王位 vs 豊島将之 八段",
+      "source": "https://shogidb2.com/games/8d10e8c6085e1b94b90a535501fcc228915d126063c56a1a24394d01",
+      "category": "将棋DB2",
+      "date": "2018/07/04 9:00:00"
+    },
+    {
+      "id": "shogidb2_9493f105e611c0dc4fb46df8",
+      "file": "shogidb2_9493f105e611c0dc4fb46df8.txt",
+      "title": "永瀬拓矢 二冠 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/9493f105e611c0dc4fb46df80780cc1b0a727acbffc3d71601b6c770120700",
+      "category": "将棋DB2",
+      "date": "2020/06/04 10:00:00"
+    },
+    {
+      "id": "shogidb2_868271de318fbce0b7a8aa2a",
+      "file": "shogidb2_868271de318fbce0b7a8aa2a.txt",
+      "title": "木村一基 王位 vs 藤井聡太 棋聖",
+      "source": "https://shogidb2.com/games/868271de318fbce0b7a8aa2a2a02c82603f0258981170f565f3626474108",
+      "category": "将棋DB2",
+      "date": "2020/08/19 9:00:00"
+    },
+    {
+      "id": "shogidb2_9d077ff0358ebc006ab1117b",
+      "file": "shogidb2_9d077ff0358ebc006ab1117b.txt",
+      "title": "菅井竜也 七段 vs 羽生善治 三冠",
+      "source": "https://shogidb2.com/games/9d077ff0358ebc006ab1117b78e98f914ea1600eb1258007036c7c409600",
+      "category": "将棋DB2",
+      "date": "2017/07/25 9:00:00"
+    },
+    {
+      "id": "shogidb2_950a00a07f235bafce78d29d",
+      "file": "shogidb2_950a00a07f235bafce78d29d.txt",
+      "title": "羽生善治 三冠 vs 菅井竜也 七段",
+      "source": "https://shogidb2.com/games/950a00a07f235bafce78d29dd2309599243e567978800d808d61c04d0a",
+      "category": "将棋DB2",
+      "date": "2017/08/08 9:00:00"
+    },
+    {
+      "id": "shogidb2_7e8a919dcebcb0f861ded16a",
+      "file": "shogidb2_7e8a919dcebcb0f861ded16a.txt",
+      "title": "渡辺　明 竜王 vs 井出隼平 四段",
+      "source": "https://shogidb2.com/games/7e8a919dcebcb0f861ded16a15509388083265f0085e00bbc0c7a60402",
+      "category": "将棋DB2",
+      "date": "2017/09/21 10:00:00"
+    },
+    {
+      "id": "shogidb2_918a911d46bc4081325dec94",
+      "file": "shogidb2_918a911d46bc4081325dec94.txt",
+      "title": "藤井聡太 四段 vs 矢倉規広 七段",
+      "source": "https://shogidb2.com/games/918a911d46bc4081325dec94392df80049bf850c0f1bfe4d0f7f188ef010",
+      "category": "将棋DB2",
+      "date": "2018/01/19 10:00:00"
+    },
+    {
+      "id": "shogidb2_939c11788c7e01ad1d2dda09",
+      "file": "shogidb2_939c11788c7e01ad1d2dda09.txt",
+      "title": "井上慶太 九段 vs 藤井聡太 六段",
+      "source": "https://shogidb2.com/games/939c11788c7e01ad1d2dda09e367139019c403446c6098c0ff80d316",
+      "category": "将棋DB2",
+      "date": "2018/03/28 10:00:00"
+    },
+    {
+      "id": "shogidb2_718b717e80d163618142b574",
+      "file": "shogidb2_718b717e80d163618142b574.txt",
+      "title": "藤井聡太 六段 vs 大石直嗣 七段",
+      "source": "https://shogidb2.com/games/718b717e80d163618142b574a798409823787cd9087c856df801b10a4302",
+      "category": "将棋DB2",
+      "date": "2018/04/24 10:00:00"
+    },
+    {
+      "id": "shogidb2_9b033f308fc00e5fb6aa913d",
+      "file": "shogidb2_9b033f308fc00e5fb6aa913d.txt",
+      "title": "羽生善治 竜王 vs 佐藤天彦 名人",
+      "source": "https://shogidb2.com/games/9b033f308fc00e5fb6aa913d26cda4d2a01e88c8db048001fc0c1f0115",
+      "category": "将棋DB2",
+      "date": "2018/05/08 9:00:00"
+    },
+    {
+      "id": "shogidb2_800a33308e3b3ff052e6b63c",
+      "file": "shogidb2_800a33308e3b3ff052e6b63c.txt",
+      "title": "羽生善治 三冠 vs 菅井竜也 七段",
+      "source": "https://shogidb2.com/games/800a33308e3b3ff052e6b63c004123f100d821c30e1fe08769f807a102",
+      "category": "将棋DB2",
+      "date": "2017/07/05 9:00:00"
+    },
+    {
+      "id": "shogidb2_998cf1c70735b2b3bff435b7",
+      "file": "shogidb2_998cf1c70735b2b3bff435b7.txt",
+      "title": "藤井聡太 六段 vs 三枚堂達也 六段",
+      "source": "https://shogidb2.com/games/998cf1c70735b2b3bff435b79d5503c10f02c22c4132013c18be1f3686032000",
+      "category": "将棋DB2",
+      "date": "2018/03/15 10:00:00"
+    },
+    {
+      "id": "shogidb2_818a71dec137a5b07851fd30",
+      "file": "shogidb2_818a71dec137a5b07851fd30.txt",
+      "title": "藤井聡太 六段 vs 古森悠太 四段",
+      "source": "https://shogidb2.com/games/818a71dec137a5b07851fd3011c50304416c1305f86100a6e168bc44",
+      "category": "将棋DB2",
+      "date": "2018/04/05 10:00:00"
+    },
+    {
+      "id": "shogidb2_8d19407fb1ef8caa29d0efee",
+      "file": "shogidb2_8d19407fb1ef8caa29d0efee.txt",
+      "title": "久保利明 王将 vs 増田康宏 六段",
+      "source": "https://shogidb2.com/games/8d19407fb1ef8caa29d0efee6a7aa11310499047001e06d84cc32a0405",
+      "category": "将棋DB2",
+      "date": "2018/07/19 10:01:00"
+    },
+    {
+      "id": "shogidb2_70897166a4ec400bfc32d1aa",
+      "file": "shogidb2_70897166a4ec400bfc32d1aa.txt",
+      "title": "大山康晴 vs 升田幸三",
+      "source": "https://shogidb2.com/games/70897166a4ec400bfc32d1aa5901119124fb0300068f0d9c586501",
+      "category": "将棋DB2",
+      "date": "1971/04/30 9:00:00"
+    },
+    {
+      "id": "shogidb2_688f11dfcc60f3503caba026",
+      "file": "shogidb2_688f11dfcc60f3503caba026.txt",
+      "title": "久保利明 王将 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/688f11dfcc60f3503caba026453cf619840492e00f0f80ff6978281b01",
+      "category": "将棋DB2",
+      "date": "2017/12/10 15:00:00"
+    },
+    {
+      "id": "shogidb2_97aa710646f05085daab143e",
+      "file": "shogidb2_97aa710646f05085daab143e.txt",
+      "title": "増田康宏 六段 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/97aa710646f05085daab143e3dca867aa4843009db6383e12f30009e51",
+      "category": "将棋DB2",
+      "date": "2018/06/29 10:00:00"
+    },
+    {
+      "id": "shogidb2_688f1176f308fe60fe35aa2a",
+      "file": "shogidb2_688f1176f308fe60fe35aa2a.txt",
+      "title": "里見香奈 女流四冠 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/688f1176f308fe60fe35aa2a2d0a84843c123ca67cc1667b1926e0eba30000",
+      "category": "将棋DB2",
+      "date": "2018/08/24 10:00:00"
+    },
+    {
+      "id": "shogidb2_868f115846d8c1acbe287cfc",
+      "file": "shogidb2_868f115846d8c1acbe287cfc.txt",
+      "title": "渡辺　明 棋王 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/868f115846d8c1acbe287cfcb41408bc09bc802d30ac601a3e2b1d05",
+      "category": "将棋DB2",
+      "date": "2019/02/16 14:30:00"
+    },
+    {
+      "id": "shogidb2_9394f107cc23331e98f75204",
+      "file": "shogidb2_9394f107cc23331e98f75204.txt",
+      "title": "藤井聡太 四段 vs 澤田真吾 六段",
+      "source": "https://shogidb2.com/games/9394f107cc23331e98f75204344113e051f1f9de01d830809fe1919c04",
+      "category": "将棋DB2",
+      "date": "2017/06/02 10:00:00"
+    },
+    {
+      "id": "shogidb2_7094911d33e00fc36b07a917",
+      "file": "shogidb2_7094911d33e00fc36b07a917.txt",
+      "title": "髙見泰地 五段 vs 羽生善治 竜王",
+      "source": "https://shogidb2.com/games/7094911d33e00fc36b07a917ad42899d441e0600f06732807f964001",
+      "category": "将棋DB2",
+      "date": "2018/01/13 10:00:00"
+    },
+    {
+      "id": "shogidb2_8a991198472c600654685ff8",
+      "file": "shogidb2_8a991198472c600654685ff8.txt",
+      "title": "阿部光瑠 六段 vs 藤井聡太 六段",
+      "source": "https://shogidb2.com/games/8a991198472c600654685ff880049210784cfbee9f0fbcf9f7c0937103",
+      "category": "将棋DB2",
+      "date": "2018/04/10 10:00:00"
+    },
+    {
+      "id": "shogidb2_8e8a7106467636da42f1d20f",
+      "file": "shogidb2_8e8a7106467636da42f1d20f.txt",
+      "title": "佐藤康光 九段 vs 羽生善治 竜王",
+      "source": "https://shogidb2.com/games/8e8a7106467636da42f1d20f8a87028804dc99f00f03b8b747a47e11",
+      "category": "将棋DB2",
+      "date": "2018/08/15 10:00:00"
+    },
+    {
+      "id": "shogidb2_97ac11632dc0ee52d04fb4e5",
+      "file": "shogidb2_97ac11632dc0ee52d04fb4e5.txt",
+      "title": "藤井　猛 九段 vs 阿久津主税 八段",
+      "source": "https://shogidb2.com/games/97ac11632dc0ee52d04fb4e501c80cf09fdf5b40d83c1860208a9f2a",
+      "category": "将棋DB2",
+      "date": "2019/06/19 10:00:00"
+    },
+    {
+      "id": "shogidb2_9427805f1e0b2f66ed278002",
+      "file": "shogidb2_9427805f1e0b2f66ed278002.txt",
+      "title": "木村一基 王位 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/9427805f1e0b2f66ed2780022485191e495ef8d96d7c3b990618bec0c900",
+      "category": "将棋DB2",
+      "date": "2020/07/13 9:00:00"
+    },
+    {
+      "id": "shogidb2_998611bff302fcbda8e2b541",
+      "file": "shogidb2_998611bff302fcbda8e2b541.txt",
+      "title": "藤井猛 vs 佐藤天彦",
+      "source": "https://shogidb2.com/games/998611bff302fcbda8e2b541612404f050f24d003c304cb68d6f88ff1a00",
+      "category": "将棋DB2",
+      "date": "2015/05/26 10:01:00"
+    },
+    {
+      "id": "shogidb2_74163c80028b63b4cfd0b6af",
+      "file": "shogidb2_74163c80028b63b4cfd0b6af.txt",
+      "title": "深浦康市 九段 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/74163c80028b63b4cfd0b6af162892af84c063e2b402c08f2199a60a",
+      "category": "将棋DB2",
+      "date": "2018/06/22 10:00:00"
+    },
+    {
+      "id": "shogidb2_8d11c03cc2874d292df205c1",
+      "file": "shogidb2_8d11c03cc2874d292df205c1.txt",
+      "title": "今泉健司 四段 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/8d11c03cc2874d292df205c11c007e0893c820ab0d036c2623bc5c02",
+      "category": "将棋DB2",
+      "date": "2018/06/11 15:02:00"
+    },
+    {
+      "id": "shogidb2_9e8471b6ab5ff052bce8ae55",
+      "file": "shogidb2_9e8471b6ab5ff052bce8ae55.txt",
+      "title": "羽生善治 九段 vs 藤井聡太 七段",
+      "source": "https://shogidb2.com/games/9e8471b6ab5ff052bce8ae5505000176532479883fee6d007c3d86135900",
+      "category": "将棋DB2",
+      "date": "2019/10/21 10:00:00"
+    },
+    {
+      "id": "shogidb2_829471662b0ae32fd889a00a",
+      "file": "shogidb2_829471662b0ae32fd889a00a.txt",
+      "title": "藤井聡太 二冠 vs 永瀬拓矢 王座",
+      "source": "https://shogidb2.com/games/829471662b0ae32fd889a00adf050a985ec18de10106803f558d02",
+      "category": "将棋DB2",
+      "date": "2020/10/26 10:00:00"
+    },
+    {
+      "id": "shogidb2_9a831118011498615ff860d6",
+      "file": "shogidb2_9a831118011498615ff860d6.txt",
+      "title": "都成竜馬 四段 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/9a831118011498615ff860d6f2087f604804019b7d3700feb30922",
+      "category": "将棋DB2",
+      "date": "2017/07/11 14:00:00"
+    },
+    {
+      "id": "shogidb2_848a71861a016aeef5a43c02",
+      "file": "shogidb2_848a71861a016aeef5a43c02.txt",
+      "title": "藤井聡太 四段 vs 深浦康市 九段",
+      "source": "https://shogidb2.com/games/848a71861a016aeef5a43c02f6d6c807c02e480879807fbe3d0c27e910",
+      "category": "将棋DB2",
+      "date": "2017/12/23 15:00:00"
+    },
+    {
+      "id": "shogidb2_848e7106f3e88f7d8fd2a240",
+      "file": "shogidb2_848e7106f3e88f7d8fd2a240.txt",
+      "title": "澤田真吾 六段 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/848e7106f3e88f7d8fd2a2407f7cf5c503f44148a6a4848d9b01308c2404",
+      "category": "将棋DB2",
+      "date": "2018/01/14 10:00:00"
+    },
+    {
+      "id": "shogidb2_980f333002602f14aa08aaa1",
+      "file": "shogidb2_980f333002602f14aa08aaa1.txt",
+      "title": "梶浦宏孝 四段 vs 藤井聡太 四段",
+      "source": "https://shogidb2.com/games/980f333002602f14aa08aaa106c07fc01660826978b5cd3102",
+      "category": "将棋DB2",
+      "date": "2018/02/01 10:00:00"
+    },
+    {
+      "id": "shogidb2_8695f10fcc23af5d5178a5b4",
+      "file": "shogidb2_8695f10fcc23af5d5178a5b4.txt",
+      "title": "稲葉　陽 八段 vs 羽生善治 竜王",
+      "source": "https://shogidb2.com/games/8695f10fcc23af5d5178a5b40d308f02b1a924d826d83cf03d3dc0f04020",
+      "category": "将棋DB2",
+      "date": "2018/03/21 10:00:00"
+    },
+    {
+      "id": "shogidb2_859e119847fcbed83103d5a1",
+      "file": "shogidb2_859e119847fcbed83103d5a1.txt",
+      "title": "羽生善治 竜王 vs 谷川浩司 九段",
+      "source": "https://shogidb2.com/games/859e119847fcbed83103d5a1bb2a20421e228f04d86c18261e2bff1f400c",
+      "category": "将棋DB2",
+      "date": "2018/03/27 10:00:00"
     }
   ]
 }

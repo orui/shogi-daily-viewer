@@ -146,6 +146,13 @@ body:not(.viewer-unlocked) {
   height: 6px;
 }
 
+.stage-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
 .meta-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -179,6 +186,15 @@ body:not(.viewer-unlocked) {
   font-weight: 700;
   line-height: 1.5;
   word-break: break-word;
+}
+
+.stage-meta-card {
+  padding: 10px 12px;
+}
+
+.stage-meta-card .meta-value {
+  font-size: 14px;
+  line-height: 1.35;
 }
 
 .viewer-grid {
@@ -490,8 +506,107 @@ body:not(.viewer-unlocked) {
 }
 
 @media (max-width: 1120px) {
+  .page-shell {
+    padding: 12px;
+  }
+
   .layout {
     grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .panel {
+    border-radius: 22px;
+    padding: 14px;
+  }
+
+  .stage-meta-grid {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .meta-card {
+    border-radius: 12px;
+    padding: 8px 10px;
+  }
+
+  .meta-label {
+    margin-bottom: 2px;
+    font-size: 11px;
+  }
+
+  .meta-value {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .viewer-grid {
+    gap: 8px;
+  }
+
+  .hand-panel {
+    padding: 9px 12px;
+  }
+
+  .hand-title {
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+
+  .hand-pieces {
+    gap: 6px;
+  }
+
+  .hand-piece {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .board-wrap {
+    padding: 20px 30px 24px 0;
+  }
+
+  .board-frame {
+    padding: 12px;
+  }
+
+  .board-axis-top {
+    left: 14px;
+    right: 30px;
+  }
+
+  .board-axis-right {
+    top: 14px;
+    bottom: 24px;
+  }
+
+  .control-bar {
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .control-btn {
+    padding: 9px 13px;
+  }
+
+  .progress-wrap {
+    margin-top: 10px;
+  }
+
+  .field {
+    margin-bottom: 10px;
+  }
+
+  .moves-panel {
+    padding-top: 12px;
+  }
+
+  .moves-header {
+    margin-bottom: 8px;
+  }
+
+  .move-list {
+    max-height: 420px;
   }
 }
 
@@ -524,6 +639,10 @@ body:not(.viewer-unlocked) {
   }
 
   .meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stage-meta-grid {
     grid-template-columns: 1fr;
   }
 

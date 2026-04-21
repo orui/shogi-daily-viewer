@@ -21,6 +21,7 @@ const dom = {
   authForm: document.getElementById("authForm"),
   authPassword: document.getElementById("authPassword"),
   authError: document.getElementById("authError"),
+  stageMetaGrid: document.getElementById("stageMetaGrid"),
   metaGrid: document.getElementById("metaGrid"),
   boardGrid: document.getElementById("boardGrid"),
   boardFilesTop: document.getElementById("boardFilesTop"),
@@ -169,16 +170,30 @@ function ensureBoardSkeleton() {
 }
 
 function renderMeta(metadata) {
-  dom.metaGrid.innerHTML = "";
-  metaDisplayEntries(metadata).forEach(([label, value]) => {
+  const stageLabels = ["先手", "後手", "戦型"];
+  dom.stageMetaGrid.innerHTML = "";
+  stageLabels.forEach((label) => {
     const card = document.createElement("div");
-    card.className = "meta-card";
+    card.className = "meta-card stage-meta-card";
     card.innerHTML = `
       <div class="meta-label">${label}</div>
-      <div class="meta-value">${value}</div>
+      <div class="meta-value">${metadata[label] || "-"}</div>
     `;
-    dom.metaGrid.appendChild(card);
+    dom.stageMetaGrid.appendChild(card);
   });
+
+  dom.metaGrid.innerHTML = "";
+  metaDisplayEntries(metadata)
+    .filter(([label]) => !stageLabels.includes(label))
+    .forEach(([label, value]) => {
+      const card = document.createElement("div");
+      card.className = "meta-card";
+      card.innerHTML = `
+        <div class="meta-label">${label}</div>
+        <div class="meta-value">${value}</div>
+      `;
+      dom.metaGrid.appendChild(card);
+    });
 }
 
 function renderHands(container, hands) {

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shogi Daily Viewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <main class="layout">
+      <section class="panel stage-panel">
+        <div class="panel-header">
+          <div class="panel-spacer" aria-hidden="true"></div>
+        </div>
+
+        <div class="viewer-grid">
+          <div class="hand-panel hand-top">
+            <div class="hand-title">後手の持駒</div>
+            <div class="hand-pieces" id="whiteHand"></div>
+          </div>
+
+          <div class="board-wrap">
+            <div class="board-frame">
+              <div class="board-grid" id="boardGrid" aria-label="将棋盤"></div>
+            </div>
+            <div class="board-axis board-axis-top" id="boardFilesTop"></div>
+            <div class="board-axis board-axis-right" id="boardRanksRight"></div>
+          </div>
+
+          <div class="hand-panel hand-bottom">
+            <div class="hand-title">先手の持駒</div>
+            <div class="hand-pieces" id="blackHand"></div>
+          </div>
+        </div>
+
+        <div class="control-bar">
+          <button class="control-btn" id="startBtn">最初へ</button>
+          <button class="control-btn" id="prevBtn">1手戻る</button>
+          <button class="control-btn control-btn-primary" id="playBtn">自動再生</button>
+          <button class="control-btn" id="nextBtn">1手進む</button>
+          <button class="control-btn" id="endBtn">最後へ</button>
+        </div>
+
+        <div class="progress-wrap">
+          <input type="range" id="moveSlider" min="0" max="0" value="0">
+          <div class="progress-meta">
+            <div id="moveSummary">初期局面</div>
+            <div id="resultSummary">-</div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel side-panel">
+        <label class="field">
+          <span>棋譜</span>
+          <div class="selector-row">
+            <button class="selector-btn" id="prevGameBtn" type="button">前の棋譜</button>
+            <select id="gameSelect"></select>
+            <button class="selector-btn" id="nextGameBtn" type="button">次の棋譜</button>
+          </div>
+        </label>
+
+        <div class="moves-panel">
+          <div class="moves-header">
+            <h3>手順</h3>
+            <div class="moves-count" id="movesCount">0手</div>
+          </div>
+          <ol class="move-list" id="moveList"></ol>
+        </div>
+
+        <div class="meta-grid meta-grid-side" id="metaGrid"></div>
+      </aside>
+    </main>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

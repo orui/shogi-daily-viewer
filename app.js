@@ -275,7 +275,15 @@ function setMoveIndex(index) {
 
   const currentNode = dom.moveList.querySelector(".move-item.current");
   if (currentNode) {
-    currentNode.scrollIntoView({ block: "nearest" });
+    const listTop = dom.moveList.scrollTop;
+    const listBottom = listTop + dom.moveList.clientHeight;
+    const itemTop = currentNode.offsetTop;
+    const itemBottom = itemTop + currentNode.offsetHeight;
+    if (itemTop < listTop) {
+      dom.moveList.scrollTop = itemTop;
+    } else if (itemBottom > listBottom) {
+      dom.moveList.scrollTop = itemBottom - dom.moveList.clientHeight;
+    }
   }
 }
 

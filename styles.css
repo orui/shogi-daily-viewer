@@ -493,10 +493,6 @@ body:not(.viewer-unlocked) {
   .layout {
     grid-template-columns: 1fr;
   }
-
-  .side-panel {
-    order: -1;
-  }
 }
 
 @media (max-width: 980px) {

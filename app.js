@@ -85,17 +85,6 @@ function pieceImageUrl(piece, owner, compact = false) {
   return url;
 }
 
-function formatDateForInput(date) {
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
-}
-
-function dateToIndex(dateString, length) {
-  const base = new Date(`${dateString}T00:00:00`);
-  const epoch = new Date("2026-01-01T00:00:00");
-  const diffDays = Math.floor((base - epoch) / 86400000);
-  return ((diffDays % length) + length) % length;
-}
-
 function stopAutoplay() {
   if (state.autoplayTimer) {
     clearInterval(state.autoplayTimer);
@@ -327,14 +316,6 @@ async function loadGame(index) {
   renderMoves();
 }
 
-function setDate(dateString) {
-  if (!state.manifest.length) {
-    return;
-  }
-  const index = dateToIndex(dateString, state.manifest.length);
-  return loadGame(index);
-}
-
 function setupEvents() {
   dom.gameSelect.addEventListener("change", () => {
     stopAutoplay();
@@ -408,8 +389,7 @@ async function bootstrap() {
     dom.gameSelect.appendChild(option);
   });
 
-  const today = formatDateForInput(new Date());
-  await setDate(today);
+  await loadGame(Math.floor(Math.random() * state.manifest.length));
 }
 
 bootstrap().catch((error) => {
